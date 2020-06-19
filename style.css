@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(103, 102, 112);
+    overflow-x: hidden;
+}
+
+.card {
+    width: 250px;
+    height: 400px;
+    background: white;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:nth-child(1) {
+    border-radius: 50%;
+    box-shadow: inset 5em 1em silver, 5px 5px 200em white;
+}
+
+.card h1 {
+    font-size: 3em;
+    color: silver;
+    position: absolute;
+    text-transform: capitalize;
+    right: 65%;
+    top: 20%;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 5px 50px silver;
+}
+
+.svg-pc {
+    position: relative;
+    left: 2.5em;
+}
+
+.svg-looking {
+    position: absolute;
+    top: 1%;
+    width: 70em;
+    height: 40em;
+}
